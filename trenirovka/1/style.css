@@ -1,0 +1,31 @@
+.target {
+    width: 100%;
+    height: 400px;
+    background: silver;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 972px) {
+
+
+    .target {
+        background: aqua;
+        height: 200px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 972px) and (max-width: 1200px) {
+
+
+    .target {
+        background: seagreen;
+        height: 300px;
+    }
+
+}
+
+

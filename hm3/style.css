@@ -1,0 +1,42 @@
+.target {
+    width: 200px;
+    height: 200px;
+    background: silver;
+    /*transition: 4s;*/
+    animation-name: xxx;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 3s;*/
+    animation-play-state: running;
+}
+
+/*.target:hover {*/
+/*    width: 100%;*/
+/*    !*background: #0976d2;*!*/
+/*    !*transition: 3s;*!*/
+/*}*/
+
+.target:hover {
+    animation-play-state: running;
+}
+
+@keyframes xxx {
+    0% {
+        /*width: 200px;*/
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        /*width: 400px;*/
+        transform: rotate(30deg);
+    }
+
+    to {
+        /*width: 800px;*/
+        transform: rotate(0deg);
+
+    }
+
+}
+

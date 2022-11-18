@@ -375,9 +375,115 @@
 
 
 
+// Абстракное задание
+// let x = +prompt() || "default"
+// console.log(x);
 
-let x = +prompt() || "default"
-console.log(x);
+
+// Задание с массивом и циклами
+// let users = [
+//     {name: "Inna", age: 23, status: true},
+//     {name: "Katya", age: 12, status: false},
+//     {name: "Marya", age: 32, status: false},
+//     {name: "Masha", age: 23, status: true},
+//     {name: "Misaha", age: 45, status: false},
+//     {name: "Kolya", age: 55, status: true},
+//     {name: "Volodia", age: 67, status: false},
+//     {name: "Kent", age: 34, status: true},
+//     {name: "Nikola", age: 44, status: false},
+//     {name: "Emfodii", age: 43, status: true}
+// ];
+// console.log(users[9].age);
+//
+//
+// for (let user of users) {
+//     document.write(`
+//         <div class="baza">
+//             <h2>${user.name}</h2>
+//             <p>${user.age} ${user.status}</p>
+//         </div>`);
+//
+// }
+
+
+
+let products = [
+    {
+        title: 'milk',
+        price: 22,
+        image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+    },
+    {
+        title: 'juice',
+        price: 27,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+    },
+    {
+        title: 'tomato',
+        price: 47,
+        image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+    },
+    {
+        title: 'tea',
+        price: 15,
+        image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+    },
+];
+
+for (const product of products) {
+    document.write(
+        `
+<div class="menu">
+    <h2>Название - ${product.title} Цена - ${product.price}</h2>
+    <img class="immm" src="${product.image}" alt="${product.title}">
+</div>
+        `
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

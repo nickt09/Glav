@@ -119,7 +119,7 @@
 
 
 // Масив
-|
+
 // let arr = [100500, true, "nomer bul", [11, 22, 13]];
 // console.log(arr);
 // arr[4] = "hello";
@@ -218,6 +218,185 @@
 // console.log(typeof []);
 // console.log(Array.isArray([]));
 // console.log(Array.isArray({}));
+
+
+
+
+
+// let answer = confirm("Тебе есть 18+  ?");
+//
+//
+//
+//
+//
+// if (answer) {
+//     document.write("<h1>CORN</h1>");
+// }else{
+//     document.write("<h1>Carton</h1>");
+// }
+//
+
+
+
+// Операторы if, else, elif
+// let age = +prompt("Тебе есть 18+  ?");
+//
+// if (age < 18) {
+//     document.write("<h1>Mult</h1>");
+// } else if (age >= 18 && age <  90) {
+//     document.write("<h1>corn hub</h1>");
+// } else if (age >= 90) {
+//     document.write("<h1>casablanka</h1>");
+// } else {
+//     document.write("<h1>Не верный ввод</h1>");
+// }
+
+
+
+
+// Операторы if, else, elif (2)
+// let color = prompt("color");
+// let roadStatus = confirm("road is clear");
+//
+// if (color === "green" || roadStatus) {
+//     console.log("goooooo");
+// } else if (color === "yellow") {
+//     console.log("wait");
+// } else if (color === "red") {
+//     console.log("stop");
+// }
+
+
+
+
+// let x;
+//
+// if (true) {
+//     x = 100;
+// } else {
+//     x = -100
+// }
+//
+// console.log(x);
+
+
+
+// Тернарный оператор
+// let y = confirm("what?") ? 100 : -100;
+// console.log(y);
+
+
+
+// Проверка
+// if (1) {
+//     console.log("good");
+// } else {
+//     console.log("hai");
+// }
+
+
+
+// Проверка
+// let arr = [];
+//
+// if (arr.length !== 0) {
+//     console.log("array")
+// }else {
+//     console.log("noy array");
+// }
+
+
+
+// Инструкция switch
+// switch ("red") {
+//     case "green":
+//         console.log("go");
+//         break;
+//     case "yellow":
+//         console.log("wait");
+//         break;
+//     case "red":
+//         console.log("stop");
+//         break;
+//     default:
+//         console.log("?????????");
+// }
+
+
+
+
+// let xxx = prompt() || "ne polusholos" ;
+// console.log(xxx);
+
+
+
+//Дз
+// let data = +prompt();
+// switch (data) {
+//     case 1:
+//         console.log("English");
+//         break;
+//     case 2:
+//         console.log("C++");
+//         break;
+//     case 3:
+//         console.log("Deutsch");
+//         break;
+//     case 4:
+//         console.log("Python");
+//         break;
+//     case 5:
+//         console.log("JS");
+//         break;
+//     case 6:
+//         console.log("PHP");
+//         break;
+//     case 7:
+//         console.log("Italian");
+//         break;
+//     default:
+//         console.log("Не вернный ввод");
+// }
+
+
+
+
+// let a = +prompt();
+// let b = +prompt();
+// if (a > b) {
+//     console.log(a + " - Это число больше чем b");
+// } else if (b > a) {
+//     console.log(b + " - Это число больше чем a");
+// } else if (a === b) {
+//     console.log("Числа равны");
+// } else {
+//     console.log("Не вернный ввод");
+// }
+
+
+
+
+let x = +prompt() || "default"
+console.log(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
